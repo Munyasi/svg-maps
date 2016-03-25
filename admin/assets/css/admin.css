@@ -1,0 +1,52 @@
+#country_connection_container{
+    height: 400px;
+    width: 100%;
+    background-color: #C0c0c0;
+    display: block;
+}
+
+
+#country_connection_main_list{
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#country_connection_main_list li{
+    
+    vertical-align: top;
+    display: inline-block;
+    list-style: disc;
+    
+}
+
+#country_connection_map{
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    
+}
+
+#current_countries_connected{
+    
+}
+#current_countries_connected ul{
+    margin-left: 20px;
+}
+
+#current_countries_connected li{
+    display: list-item;
+    
+}
+
+.jvectormap-label{
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #555;
+    margin-top: -15px;
+    margin-left: -15px;
+       
+}

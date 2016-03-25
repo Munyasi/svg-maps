@@ -1,0 +1,266 @@
+#wbb_projects_main_container{
+    /*background-image: url("../../../assets/images/background.png");*/
+    margin: 2px 0px;
+    font-size: 13px;
+}
+
+.project_item .media-content{
+    font-size: 13px;
+}
+
+.project_item .media-body{
+    padding: 10px 10px 20px 10px;
+}
+
+
+#wbb_projects_main_container h2{
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin-bottom: 8px;
+}
+
+#wbb_projects_main_container h3{
+    color: #0A828D;
+    border-bottom: 2px solid #0A828D;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.categories_and_countries_filters{
+    padding: 10px;
+    background-color: white;
+}
+
+#main_project_map{
+    height: 550px;
+      margin-bottom: -60px;
+}
+
+#project_map{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+#project_map.active{
+    opacity: 1;
+}
+
+  #project_countries_list
+, #project_categories_list{
+    margin: 0px;
+    padding: 0px;
+}
+
+  .project_category
+, .project_country{
+    
+    text-transform: uppercase;
+    color: #9d9d9c;
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+  .project_category i.icon-ok
+, .project_country i.icon-ok{
+    display: none;
+}
+
+  .project_category.active
+, .project_country.active{
+
+    color: #F48020;
+    
+}
+
+  .project_category.active i
+, .project_country.active i{
+    display: inline-block;
+}
+
+.project_item{
+    margin-bottom: 25px;
+}
+
+.project_item a{
+    color: white;
+}
+
+.project_item a:hover{
+    color: #DDD;
+    text-decoration: none;
+}
+
+#project_categories_list{
+    text-transform: uppercase;
+}
+
+.jvectormap-container{
+    border-radius: 10px;
+}
+
+.projects-guide{
+      padding: 5px 8px;
+      font-size: 16px;
+      margin: 18px 16px;
+      font-style: oblique;
+      color: #0D838E;
+      /*background-color: #CCE283;*/
+      font-weight: 300;
+}
+
+
+/* Result */
+/******************************************************************************/
+#project_results_container{
+    margin: 25px 0px;
+    min-height: 0px;
+}
+
+.project_item{
+    color: white;
+}
+
+.project_item .cat_title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project_image{
+    height: 215px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project_image img{
+    max-height: 215px;
+    width: 220px;
+}
+
+.project_item .project_meta{
+    
+    display: inline-block;
+    
+    padding: 6px;
+    margin-bottom: 3px;
+    
+    background-color: #9D9D9C;
+    color: #333;
+}
+
+.arrow_down_black{
+    background-image: url("../images/arrow_down_black.png");
+    background-size: 15px;
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-top: -45px;
+    margin-right: 5px;
+}
+
+#wbb_pagination{
+    display: block;
+    margin: 15px;
+    padding: 0px;
+    clear: both;
+}
+
+#wbb_pagination li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 15px;
+    background-color: #bd4226;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#wbb_pagination li.active{
+    background-color: white;
+    color: #bd4226;
+    
+}
+
+h3.no_projects_found{
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+
+/* COMP-MEDIA-ITEM-PROJECT
+   ========================================================================== */
+/**
+ * This is the style for all media event blocks
+ */
+.media-item-container{
+    
+}
+
+.media-item-project {
+    background-color: white;
+}
+
+.media-item-project h2 {
+    margin-top:0px;
+    line-height:18px;
+}
+
+.media-item-project img{
+    width: 100%;
+}
+
+.media-meta  {
+  margin-top:10px;  
+}
+
+.media-meta .connection {
+    background-color: #9D9D9C;
+    display: block;
+    padding: 3px;
+    color: #333333;    
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;  
+}
+
+.media-meta .connection-country.front_end{
+}
+.media-meta .connection-grant.front_end{
+}
+
+
+.project_category.active, .project_title.active {
+  color: #F48020;
+}
+/*cbox.ocsdnet.org/media="all"*/
+.project_category, .project_country,.project_title {
+  text-transform: uppercase;
+  color: #545454;
+  cursor: pointer;
+  list-style: none !important;
+  font-size: 14px;
+}
+
+.project_category:hover, .project_country:hover,.project_title:hover {
+    color: #F48020;
+}
+
+.ellipsis{
+    text-overflow: ellipsis;
+}
+
+.truncate {
+ /* display:inline-block;
+  width: 100%;*/
+  white-space: nowrap;
+  overflow: hidden;
+  /*text-overflow: ellipsis;*/
+}
+
+.truncate:hover{
+    /*overflow: visible;*/
+    /*text-overflow: none;*/
+    /*display: block;*/
+    /*white-space: normal;*/
+}

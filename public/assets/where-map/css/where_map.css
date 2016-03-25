@@ -1,0 +1,189 @@
+/* WINNERS MODAL */
+#winners_modal{
+    width: 983px;
+    
+}
+
+#winners_modal.in{
+left: 50%;
+margin-left: -490px;
+}
+#winners_modal .modal-body{
+    height: 625px;
+    max-height: 625px !important;
+}
+
+/* WINNERS MODAL CONTENT */
+#winners_container{
+    
+    width: 940px;
+    text-align: right;
+    margin: 0px auto;
+}
+
+
+#winners_container h2{
+    line-height: 20px;
+}
+
+  .winners_left_column
+, .winners_right_column{
+    display: inline-block;
+    height: 500px;
+    vertical-align: top;
+}
+
+.winners_right_column{
+    width: 540px;
+}
+
+.winners_left_column{
+    width: 390px;
+}
+
+#world-map{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+#where_main_container{
+    transition: 0.2s linear;
+    background-color: white;
+    padding: 50px 10px;
+}
+
+#where_main_container.animation_running{
+    opacity: 0.5;
+}
+
+.data_panel{
+    display: block;
+    padding: 0px 0px;
+    background: white;
+    position: relative;
+    transition: 1s;
+    text-align: left;
+}
+
+.data_panel ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.data_panel li{
+    display: inline-block;
+    border: 1px solid white;
+    text-align: left;
+    transition: ease 0.2s;
+}
+
+.data_panel input:hover{
+    
+    border: 1px solid #d5d5d5;
+    
+}
+
+
+.data_panel li:nth-of-type(7n+0){
+    margin-right: 0px;
+}
+
+.country_data{
+    
+    width: 100%;
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+}
+
+.country_data h2{
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #b2b2b2;
+    width: 320px;
+    border-bottom: 2px solid #b2b2b2;
+    padding-bottom: 10px;
+}
+
+.country_data h2:after{
+    content: " ///";
+}
+
+.data_panel li .chart_title{
+    
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    text-align: left;
+    
+}
+
+/* INPUT */
+input.dial{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+/* BAR CHART */
+/******************************************************************************/
+#bar_chart{
+    width: 380px;
+    height: 140px;
+}
+
+
+/* PIE CHART */
+/******************************************************************************/
+#pie_chart{
+    width: 380px;
+    height: 140px;
+}
+
+#pie_legend{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #666;
+}
+
+#pie_legend span{
+    width: 120px;
+    display: inline-block;
+}
+
+.nocode2{
+    text-align: left;
+    position: absolute;
+    margin: 20px 14px;
+    color: #CD1719;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.reset_buttons{
+    background-color: #9d9d9d;
+    padding: 3px 6px;
+    color: white;
+    display: block;
+    width: 208px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.reset_buttons_box{
+    margin-top: 25px;
+}
+
+.country_description{
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    width: 320px;
+}
+
+.circle_chart{
+    margin-bottom: 30px;
+    
+}
